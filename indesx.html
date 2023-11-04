@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo de Página Web</title>
+</head>
+<body>
+    <h1>Mi Primera Página Web</h1>
+
+    <h2>Tabla Avanzada</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>País</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>kevin adonis</td>
+                <td>20</td>
+                <td>Republica Dominicana</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>30</td>
+                <td>España</td>
+            </tr>
+            <tr>
+                <td>Lisa</td>
+                <td>22</td>
+                <td>EE. UU.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Formulario</h2>
+    <form action="procesar.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+
+        <label for="pais">País:</label>
+        <select id="pais" name="pais">
+            <option value="mexico">México</option>
+            <option value="espana">España</option>
+            <option value="eeuu">EE. UU.</option>
+        </select><br>
+
+        <label>Intereses:</label><br>
+        <input type="checkbox" id="interes1" name="interes[]" value="deporte">
+        <label for="interes1">Deporte</label><br>
+
+        <input type="checkbox" id="interes2" name="interes[]" value="musica">
+        <label for="interes2">Música</label><br>
+
+        <input type="checkbox" id="interes3" name="interes[]" value="viajes">
+        <label for="interes3">Viajes</label><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
