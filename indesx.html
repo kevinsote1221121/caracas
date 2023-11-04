@@ -1,62 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ejemplo de Página Web</title>
+    <title>Página Web de kevin</title>
 </head>
 <body>
-    <h1>Mi Primera Página Web</h1>
+    <h1>¡Mi Primera Página Web kevin!</h1>
+    
+    <h2>Listado Ordenado</h2>
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
 
-    <h2>Tabla Avanzada</h2>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Nombre</th>
-                <th>Edad</th>
-                <th>País</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>kevin adonis</td>
-                <td>20</td>
-                <td>Republica Dominicana</td>
-            </tr>
-            <tr>
-                <td>Maria</td>
-                <td>30</td>
-                <td>España</td>
-            </tr>
-            <tr>
-                <td>Lisa</td>
-                <td>22</td>
-                <td>EE. UU.</td>
-            </tr>
-        </tbody>
-    </table>
+    <h2>Imagen</h2>
+    <img src="imagen/3ce4cb38-38e5-4495-8b2f-af541214793a.jpeg" alt="Descripción de la imagen">
 
-    <h2>Formulario</h2>
-    <form action="procesar.php" method="post">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre"><br>
+    <h2>Enlace</h2>
+    <a href="https://es.wikihow.com/mantener-la-boca-cerrada">Toca aqui</a>
 
-        <label for="pais">País:</label>
-        <select id="pais" name="pais">
-            <option value="mexico">México</option>
-            <option value="espana">España</option>
-            <option value="eeuu">EE. UU.</option>
-        </select><br>
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="nombre-de-tu-audio" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
 
-        <label>Intereses:</label><br>
-        <input type="checkbox" id="interes1" name="interes[]" value="deporte">
-        <label for="interes1">Deporte</label><br>
-
-        <input type="checkbox" id="interes2" name="interes[]" value="musica">
-        <label for="interes2">Música</label><br>
-
-        <input type="checkbox" id="interes3" name="interes[]" value="viajes">
-        <label for="interes3">Viajes</label><br>
-
-        <input type="submit" value="Enviar">
-    </form>
+    <h2>Video</h2>
+    <video controls width="320" height="240">
+        <source src="videos/Y2meta.app-BAD BUNNY ft. ARCÁNGEL, DE LA GHETTO, ÑENGO FLOW - ACHO PR (Visualizer) _ nslqvapm-(480p).mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+    </video>
 </body>
 </html>
